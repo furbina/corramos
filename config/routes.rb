@@ -3,6 +3,8 @@ Corramos::Application.routes.draw do
 
   get "pages/contact"
 
+	get "pages/about"
+
   resources :posts
 
   resources :users

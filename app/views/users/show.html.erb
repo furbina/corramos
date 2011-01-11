@@ -1,5 +1,4 @@
 <p id="notice"><%= notice %></p>
-
 <p>
   <b>Name:</b>
   <%= @user.name %>
@@ -14,7 +13,7 @@
   <b>Login:</b>
   <%= @user.login %>
 </p>
-
+<%#= debug(@user) %>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
